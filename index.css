@@ -1,0 +1,4 @@
+#root div > div,
+#root div > div h1 {
+  display: inline-block;
+}

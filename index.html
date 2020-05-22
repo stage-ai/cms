@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="./favicon.ico" />
+    <link rel="stylesheet" href="./index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="StageAI"
+    />
+    <title>StageAI CMS</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root">
+      <h1>New incident</h1>
+      <hr />
+      <form id="i_f" onsubmit="return validate(event)">
+        <div>
+          <h1>Details</h1>
+          <div>
+            <label>Date reported *</label>
+            <input name="dateReported">
+          </div>
+          <div>
+            <label>Date confirmed *</label>
+            <input>
+          </div>
+          <div>
+            <label>Type *</label>
+            <select>
+              <option></option>
+              <option>Type 1</option>
+              <option>Type 2</option>
+              <option>Type 3</option>
+            </select>
+          </div>
+          <div>
+            <label>Status *</label>
+            <select>
+              <option></option>
+              <option>assigned</option>
+              <option>completed</option>
+              <option>in progress</option>
+              <option>blocked</option>
+            </select>
+          </div>
+          <div>
+            <label>Assignee *</label>
+            <select>
+              <option></option>
+              <option>John Doe</option>
+              <option>Jane Doe</option>
+              <option>Batman</option>
+            </select>
+          </div>
+          <div>
+            <label>Planet *</label>
+            <select>
+              <option></option>
+              <option>Mars</option>
+              <option>Neptune</option>
+              <option>Earth</option>
+            </select>
+          </div>
+          <div>
+            <label>Street *</label>
+            <input>
+          </div>
+        </div>
+        <div>
+          <h1>Construction works</h1>
+          <div>
+            <div>
+              <label>Start date *</label>
+              <input>
+            </div>
+            <div>
+              <label>End date</label>
+              <input>
+            </div>
+            <div>
+              <label>Date start outage *</label>
+              <input>
+            </div>
+            <div>
+              <label>Date end outage *</label>
+              <input>
+            </div>
+            <div>
+              <label>Number affected households</label>
+              <input>
+            </div>
+            <div>
+              <label>Number affected households</label>
+              <input>
+            </div>
+            <div>
+              <label>Administrative expenses</label>
+              <input>
+            </div>
+            <div>
+              <label>Material expenses</label>
+              <input>
+            </div>
+            <div>
+              <label>Labour expenses</label>
+              <input>
+            </div>
+            <div>
+              <h1>Machines</h1>
+              <label>Car 1<input type="checkbox" /></label>
+              <label>Car 2<input type="checkbox" /></label>
+              <label>Car 3<input type="checkbox" /></label>
+              <label>Car 4<input type="checkbox" /></label>
+            </div>
+            <div>
+              <h1>Engaged workers</h1>
+              <label>John Doe<input type="checkbox" /></label>
+              <label>Jane Doe<input type="checkbox" /></label>
+              <label>Batman<input type="checkbox" /></label>
+              <label>Robin<input type="checkbox" /></label>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h1>Materials</h1>
+          <h1><i>please insert only numbers (not more than 2 digits)</i></h1>
+          <div>
+            <div>
+              <label>PEHD</label>
+              <input>
+            </div>
+            <div>
+              <label>Ethernit</label>
+              <input>
+            </div>
+            <div>
+              <label>Zinc pipes</label>
+              <input>
+            </div>
+            <div>
+              <label>PEHD OV</label>
+              <input>
+            </div>
+            <div>
+              <label>PVC</label>
+              <input>
+            </div>
+            <div>
+              <label>Concrete</label>
+              <input>
+            </div>
+          </div>
+        </div>
+        <input type="submit"/>
+      </form>
+    </div>
+  </body>
+  <script type="text/javascript" src="./main.js"></script>
+</html>
