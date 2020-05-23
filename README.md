@@ -22,6 +22,6 @@ _Note: we are usign [Material UI](https://material-ui.com/) framework, which is 
 
 Submitting the form without entering any data will trigger an error. Add appropriate styling for the error message being rendered.
 
-### Step 4 (bonus points).
+### Step 4 (optional).
 
 Implement the designed layout to the rendered HTML.
